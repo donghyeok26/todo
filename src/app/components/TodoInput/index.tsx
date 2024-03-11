@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import React from 'react';
 const Box = styled.div`
   diplay: flex;
   align-items: center;
@@ -15,7 +15,7 @@ const Input = styled.input`
   outline: 0;
 `;
 
-export default function () {
+export default function TodoInput() {
   return (
     <Box>
       <Input placeholder="할일을 입력해 주세요" />
